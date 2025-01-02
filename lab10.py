@@ -1,7 +1,7 @@
 import datetime, textwrap
 
 
-def main():
+def ruslankonoz():
 	# Open function to avoid errors
 	def Open(name, mode):
 		try:
@@ -14,7 +14,7 @@ def main():
 		# read file and prints it out
 		for line in file:
 			print(line)
-		file.close() # close the file after use
+		file.close()  # close the file after use
 
 	def Write(file):
 		# write the message into the file
@@ -24,15 +24,14 @@ def main():
 		# Format the message and write it into the file
 		file.write(
 			f'\t{datetime.datetime.now().strftime("%d/%m/%Y (%H:%M)")}: {name}\n"{textwrap.fill(answer, 100)}"\n\n')
-		file.close()# close the file after use
-
+		file.close()  # close the file after use
 
 	# path to the file
 	path = "forum.txt"
 
 	# while infinity loop to show the menu after every action
 	while True:
-		fork=input("What do you to do?\n\t1. Read the messages\n\t2. Write a message\n\t3. Exit\nEnter the number:\n")
+		fork = input("What do you to do?\n\t1. Read the messages\n\t2. Write a message\n\t3. Exit\nEnter the number:\n")
 		# validating input
 		try:
 			fork = int(fork)
@@ -54,4 +53,4 @@ def main():
 
 
 if __name__ == "__main__":
-	main()
+	ruslankonoz()

@@ -1,0 +1,6 @@
+	02/01/2025 (23:41): Ruslan
+"Hello, everybody! Hope youre having great holidays. Ive got a question about connecting the front-
+and the back-end of my web application together. I dont quite understand how they should interact
+with each other to make it efficient and keep it simple. If someone has some real experience about
+building a fullstack application I would love to know how it all works together. Thank you!"
+
